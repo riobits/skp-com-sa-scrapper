@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SKP Scrapper</title>
+    <link rel="shortcut icon" href="icon.svg" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div id="search-form" class="container flex-center">
+      <img src="./icon.svg" alt="icon" />
+      <h1 class="title">SKP Scrapper</h1>
+      <form class="container flex-center">
+        <input name="url" type="text" placeholder="رابط المنتجات" required />
+        <input name="limit" type="text" placeholder="الحد (اختياري)" />
+        <p id="status"></p>
+        <button type="submit"><i class="fa-solid fa-gear"></i> البدء</button>
+      </form>
+    </div>
+    <script src="./index.js" type="module"></script>
+  </body>
+</html>
